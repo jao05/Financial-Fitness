@@ -1,0 +1,109 @@
+html
+{
+  background-image: url(https://images.unsplash.com/photo-1494888427482-242d32babc0b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a689c51340e923fd138d8f3b5f578110&auto=format&fit=crop&w=1350&q=80);
+
+  background-size: cover;
+}
+
+body
+{  
+  text-align: center;
+}
+
+main
+{
+  box-sizing: border-box;
+  padding: 50px;  
+  margin: auto;
+  width: 100%;
+}
+
+.beginQuiz
+{
+  color: black;  
+  text-align: center;
+}
+
+.startPg
+{
+  font-size: 25px;
+}
+
+h1 
+{
+  text-align: center;
+  margin-bottom: 50px;  
+}
+
+h3
+{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.startButton
+{
+  background-color: #00E83D;
+  color: white;
+  width: 180px;
+  height: 60px;
+  border: transparent;
+  border-radius: 5%;  
+  text-align: center;
+  font-size: 40px;
+}
+
+.questionsAndAnswers
+{
+  display: none;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+}
+
+.answerWrapper
+{
+  text-align: left;
+  margin-bottom: 10px;  
+  width: 100%;
+  font-size: 30px;
+}
+
+.counting 
+{
+  display: none;
+  font-size: 25px;
+}
+
+ul
+{
+  list-style-type: none;
+}
+
+.submitButton
+{
+  background-color: #FCCA13;
+  border: transparent;
+  width: 100px;
+  height: 30px;  
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.nextButton
+{
+  width: 100px;
+  height: 30px;  
+  font-size: 25px;
+  text-align: center;
+  vertical-align: top;
+  padding-bottom: 15px;
+}
+
+.restartButton
+{
+  width: 100px;
+  height: 30px;  
+  font-size: 20px;
+}
